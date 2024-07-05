@@ -3,6 +3,13 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <classes>
+      <class name="Login.LoginTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="testSuccessfulLogin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Login.LoginTests -->
       <class name="Alerts.AlertTests">
         <methods>
           <include name="testGetFromAlert"/>
@@ -14,6 +21,7 @@
       </class> <!-- Alerts.AlertTests -->
       <class name="keys.KeysTests">
         <methods>
+          <include name="testBackspace"/>
           <include name="setUp"/>
           <include name="testPi"/>
           <include name="tearDown"/>
@@ -33,6 +41,13 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- hover.HoverTests -->
+      <class name="dropdown.DropDownTests">
+        <methods>
+          <include name="DropDownTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- dropdown.DropDownTests -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
