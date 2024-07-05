@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="Alerts.AlertTests">
+        <methods>
+          <include name="testGetFromAlert"/>
+          <include name="testAcceptAlert"/>
+          <include name="setUp"/>
+          <include name="testSetInputInAlert"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Alerts.AlertTests -->
+      <class name="keys.KeysTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="testPi"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- keys.KeysTests -->
+      <class name="Alerts.FileUploadTests">
+        <methods>
+          <include name="testFileUpload"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Alerts.FileUploadTests -->
+      <class name="hover.HoverTests">
+        <methods>
+          <include name="testHoverUser1"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- hover.HoverTests -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

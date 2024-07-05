@@ -1,0 +1,5 @@
+pages\ContextMenuPage.class
+pages\HomePage.class
+pages\HoversPage$FigureCaption.class
+pages\DropDownPage.class
+pages\HoversPage.class
