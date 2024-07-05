@@ -5,32 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f797c66c-da44-4ba3-8bb2-3643fa82380c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/WysiwygEditorPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/frames/FrameTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/contextMenu/ContextMenuTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/contextMenu/ContextMenuTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Alerts.AlertTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Alerts.AlertTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Alerts.FileUploadTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Alerts.FileUploadTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Login.LoginTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Login.LoginTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-dropdown.DropDownTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-dropdown.DropDownTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-hover.HoverTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-hover.HoverTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-keys.KeysTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-keys.KeysTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/contextMenu/ContextMenuTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/contextMenu/ContextMenuTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,45 +52,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.BaseTests.executor": "Debug",
-    "Maven.Selenium_Web_Driver_with_Java [compile].executor": "Run",
-    "Maven.Selenium_Web_Driver_with_Java [compiler:compile...].executor": "Run",
-    "Maven.Selenium_Web_Driver_with_Java [compiler:compile].executor": "Run",
-    "Maven.Selenium_Web_Driver_with_Java [compiler:testCompile].executor": "Run",
-    "Maven.Selenium_Web_Driver_with_Java.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.AlertTests.executor": "Debug",
-    "TestNG.AlertTests.testAcceptAlert (1).executor": "Run",
-    "TestNG.AlertTests.testAcceptAlert.executor": "Debug",
-    "TestNG.AlertTests.testGetFromAlert (1).executor": "Debug",
-    "TestNG.AlertTests.testGetFromAlert.executor": "Run",
-    "TestNG.AlertTests.testSetInputInAlert.executor": "Run",
-    "TestNG.ContextMenuTests.testRightClick.executor": "Run",
-    "TestNG.DropDownTests.executor": "Debug",
-    "TestNG.FileUploadTests.executor": "Run",
-    "TestNG.LoginTests.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Selenium-Webdriver",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "F:/Coursera/Test_Automation_University/Selenium_Web_Driver_with_Java/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.BaseTests.executor&quot;: &quot;Debug&quot;,
+    &quot;Maven.Selenium_Web_Driver_with_Java [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Selenium_Web_Driver_with_Java [compiler:compile...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Selenium_Web_Driver_with_Java [compiler:compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Selenium_Web_Driver_with_Java [compiler:testCompile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Selenium_Web_Driver_with_Java.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.AlertTests.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.AlertTests.testAcceptAlert (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AlertTests.testAcceptAlert.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.AlertTests.testGetFromAlert (1).executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.AlertTests.testGetFromAlert.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AlertTests.testSetInputInAlert.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ContextMenuTests.testRightClick.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DropDownTests.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.FileUploadTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FrameTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FrameTests.testWysiwyg.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTests.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Selenium-Webdriver&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;F:/Coursera/Test_Automation_University/Selenium_Web_Driver_with_Java/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Coursera\Test_Automation_University\Selenium_Web_Driver_with_Java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ContextMenuTests.testRightClick">
+  <component name="RunManager" selected="TestNG.FrameTests.testWysiwyg">
     <configuration name="Selenium_Web_Driver_with_Java [compile...]" type="MavenRunConfiguration" factoryName="Maven" activateToolWindowBeforeRun="false" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -158,33 +139,6 @@
       <option name="MAIN_CLASS_NAME" value="Alerts.AlertTests" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlertTests.testAcceptAlert (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="alerts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.AlertTests" />
-      <option name="METHOD_NAME" value="testAcceptAlert" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="TEST_SEARCH_SCOPE">
@@ -308,6 +262,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FrameTests" type="TestNG" nameIsGenerated="true">
+      <module name="Selenium_Web_Driver_with_Java" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="frames.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="frames" />
+      <option name="MAIN_CLASS_NAME" value="frames.FrameTests" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrameTests.testWysiwyg" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Web_Driver_with_Java" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="frames.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="frames" />
+      <option name="MAIN_CLASS_NAME" value="frames.FrameTests" />
+      <option name="METHOD_NAME" value="testWysiwyg" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="TestNG" nameIsGenerated="true">
       <module name="Selenium_Web_Driver_with_Java" />
       <shortenClasspath name="NONE" />
@@ -351,21 +360,22 @@
     </configuration>
     <list>
       <item itemvalue="Maven.Selenium_Web_Driver_with_Java [compile...]" />
+      <item itemvalue="TestNG.FrameTests" />
       <item itemvalue="TestNG.Unnamed" />
       <item itemvalue="TestNG.AlertTests" />
       <item itemvalue="TestNG.ContextMenuTests.testRightClick" />
-      <item itemvalue="TestNG.AlertTests.testAcceptAlert (1)" />
+      <item itemvalue="TestNG.FrameTests.testWysiwyg" />
       <item itemvalue="TestNG.AlertTests.testGetFromAlert" />
       <item itemvalue="TestNG.AlertTests.testSetInputInAlert" />
       <item itemvalue="TestNG.FileUploadTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FrameTests.testWysiwyg" />
         <item itemvalue="TestNG.ContextMenuTests.testRightClick" />
         <item itemvalue="TestNG.FileUploadTests" />
         <item itemvalue="TestNG.AlertTests.testSetInputInAlert" />
         <item itemvalue="TestNG.AlertTests.testGetFromAlert" />
-        <item itemvalue="TestNG.AlertTests.testAcceptAlert (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -395,7 +405,7 @@
       <workItem from="1719715593177" duration="4112000" />
       <workItem from="1719819502038" duration="6200000" />
       <workItem from="1720091219361" duration="5902000" />
-      <workItem from="1720159415872" duration="1063000" />
+      <workItem from="1720159415872" duration="7613000" />
     </task>
     <task id="LOCAL-00001" summary="Additional keys">
       <option name="closed" value="true" />

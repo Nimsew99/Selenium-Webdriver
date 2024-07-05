@@ -48,6 +48,11 @@ public class HomePage {
         return new ContextMenuPage(driver);
     }
 
+    public WysiwygEditorPage clickWysiwygEditor(){
+        clickLink("Wysiwyg Editor");
+        return new WysiwygEditorPage(driver);
+    }
+
     //click all the links in homepage when we want
     private void clickLink(String linkText) {
         driver.findElement(By.linkText(linkText)).click();
