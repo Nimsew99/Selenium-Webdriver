@@ -53,6 +53,11 @@ public class HomePage {
         return new WysiwygEditorPage(driver);
     }
 
+    public FramesPage clickFramesPage(){
+        clickLink("Nested Frames");
+        return new FramesPage(driver);
+    }
+
     //click all the links in homepage when we want
     private void clickLink(String linkText) {
         driver.findElement(By.linkText(linkText)).click();

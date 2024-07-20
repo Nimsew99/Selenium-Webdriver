@@ -1,7 +1,7 @@
 package frames;
 
 import base.BaseTests;
-import org.testng.Assert;
+import static org.testng.Assert.assertEquals;
 import org.testng.annotations.Test;
 
 
@@ -20,7 +20,14 @@ import org.testng.annotations.Test;
             editorPage.decreaseIndention();
             editorPage.setTextArea(text2);
 
-            Assert.assertEquals(editorPage.getTextFromEditor(), text1+text2, "Text from editor is incorrect");
+            assertEquals(editorPage.getTextFromEditor(), text1+text2, "Text from editor is incorrect");
+        }
+
+        @Test
+        public void testFrameText(){
+            var nestedFramesPage = homePage.clickFramesPage().clickNestedFrames();
+            assertEquals(nestedFramesPage.getLeftFrameText(), "LEFT", "Left frame text incorrect");
+            assertEquals(nestedFramesPage.getBottomFrameText(), "BOTTOM", "Bottom frame text incorrect");
         }
     }
 
