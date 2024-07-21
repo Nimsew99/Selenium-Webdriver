@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f797c66c-da44-4ba3-8bb2-3643fa82380c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/FramesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/NestedFramesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingExample1Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/wait/WaitTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/frames/FrameTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/frames/FrameTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/frames/FrameTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/frames/FrameTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +76,7 @@
     "TestNG.FrameTests.testFrameText.executor": "Run",
     "TestNG.FrameTests.testWysiwyg.executor": "Run",
     "TestNG.LoginTests.executor": "Run",
+    "TestNG.WaitTests.testWaitUntilHidden.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Selenium-Webdriver",
@@ -94,7 +95,7 @@
       <recent name="F:\Coursera\Test_Automation_University\Selenium_Web_Driver_with_Java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FrameTests.testFrameText">
+  <component name="RunManager" selected="TestNG.WaitTests.testWaitUntilHidden">
     <configuration name="Selenium_Web_Driver_with_Java [compile...]" type="MavenRunConfiguration" factoryName="Maven" activateToolWindowBeforeRun="false" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -141,34 +142,6 @@
       <option name="MAIN_CLASS_NAME" value="Alerts.AlertTests" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlertTests.testSetInputInAlert" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_Web_Driver_with_Java" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Alerts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="Alerts" />
-      <option name="MAIN_CLASS_NAME" value="Alerts.AlertTests" />
-      <option name="METHOD_NAME" value="testSetInputInAlert" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="TEST_SEARCH_SCOPE">
@@ -340,6 +313,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WaitTests.testWaitUntilHidden" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Web_Driver_with_Java" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wait.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="wait" />
+      <option name="MAIN_CLASS_NAME" value="wait.WaitTests" />
+      <option name="METHOD_NAME" value="testWaitUntilHidden" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -365,19 +366,19 @@
       <item itemvalue="TestNG.FrameTests" />
       <item itemvalue="TestNG.Unnamed" />
       <item itemvalue="TestNG.AlertTests" />
+      <item itemvalue="TestNG.WaitTests.testWaitUntilHidden" />
       <item itemvalue="TestNG.FrameTests.testFrameText" />
       <item itemvalue="TestNG.ContextMenuTests.testRightClick" />
       <item itemvalue="TestNG.FrameTests.testWysiwyg" />
-      <item itemvalue="TestNG.AlertTests.testSetInputInAlert" />
       <item itemvalue="TestNG.FileUploadTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WaitTests.testWaitUntilHidden" />
         <item itemvalue="TestNG.FrameTests.testFrameText" />
         <item itemvalue="TestNG.FrameTests.testWysiwyg" />
         <item itemvalue="TestNG.ContextMenuTests.testRightClick" />
         <item itemvalue="TestNG.FileUploadTests" />
-        <item itemvalue="TestNG.AlertTests.testSetInputInAlert" />
       </list>
     </recent_temporary>
   </component>
@@ -409,7 +410,8 @@
       <workItem from="1720091219361" duration="5902000" />
       <workItem from="1720159415872" duration="7613000" />
       <workItem from="1720193296726" duration="638000" />
-      <workItem from="1721450713429" duration="4023000" />
+      <workItem from="1721450713429" duration="4867000" />
+      <workItem from="1721537941145" duration="6899000" />
     </task>
     <task id="LOCAL-00001" summary="Additional keys">
       <option name="closed" value="true" />
