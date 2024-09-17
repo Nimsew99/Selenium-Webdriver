@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f797c66c-da44-4ba3-8bb2-3643fa82380c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingExample1Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/wait/WaitTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingExample1Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingExample1Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wait/WaitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wait/WaitTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.AlertTests.executor": "Debug",
     "TestNG.AlertTests.testAcceptAlert (1).executor": "Run",
-    "TestNG.AlertTests.testAcceptAlert.executor": "Debug",
+    "TestNG.AlertTests.testAcceptAlert.executor": "Run",
     "TestNG.AlertTests.testGetFromAlert (1).executor": "Debug",
     "TestNG.AlertTests.testGetFromAlert.executor": "Run",
     "TestNG.AlertTests.testSetInputInAlert.executor": "Run",
@@ -76,7 +74,7 @@
     "TestNG.FrameTests.testFrameText.executor": "Run",
     "TestNG.FrameTests.testWysiwyg.executor": "Run",
     "TestNG.LoginTests.executor": "Run",
-    "TestNG.WaitTests.testWaitUntilHidden.executor": "Run",
+    "TestNG.WaitTests.testWaitUntilHidden.executor": "Debug",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Selenium-Webdriver",
@@ -154,20 +152,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContextMenuTests.testRightClick" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AlertTests.testAcceptAlert" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Web_Driver_with_Java" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="contextMenu.*" />
+          <option name="PATTERN" value="Alerts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="contextMenu" />
-      <option name="MAIN_CLASS_NAME" value="contextMenu.ContextMenuTests" />
-      <option name="METHOD_NAME" value="testRightClick" />
+      <option name="PACKAGE_NAME" value="Alerts" />
+      <option name="MAIN_CLASS_NAME" value="Alerts.AlertTests" />
+      <option name="METHOD_NAME" value="testAcceptAlert" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -182,7 +180,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileUploadTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AlertTests.testGetFromAlert" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Web_Driver_with_Java" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -194,9 +192,10 @@
       </extension>
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="Alerts" />
-      <option name="MAIN_CLASS_NAME" value="Alerts.FileUploadTests" />
+      <option name="MAIN_CLASS_NAME" value="Alerts.AlertTests" />
+      <option name="METHOD_NAME" value="testGetFromAlert" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="TEST_SEARCH_SCOPE">
@@ -366,19 +365,19 @@
       <item itemvalue="TestNG.FrameTests" />
       <item itemvalue="TestNG.Unnamed" />
       <item itemvalue="TestNG.AlertTests" />
+      <item itemvalue="TestNG.AlertTests.testAcceptAlert" />
+      <item itemvalue="TestNG.AlertTests.testGetFromAlert" />
       <item itemvalue="TestNG.WaitTests.testWaitUntilHidden" />
       <item itemvalue="TestNG.FrameTests.testFrameText" />
-      <item itemvalue="TestNG.ContextMenuTests.testRightClick" />
       <item itemvalue="TestNG.FrameTests.testWysiwyg" />
-      <item itemvalue="TestNG.FileUploadTests" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.WaitTests.testWaitUntilHidden" />
+        <item itemvalue="TestNG.AlertTests.testGetFromAlert" />
+        <item itemvalue="TestNG.AlertTests.testAcceptAlert" />
         <item itemvalue="TestNG.FrameTests.testFrameText" />
         <item itemvalue="TestNG.FrameTests.testWysiwyg" />
-        <item itemvalue="TestNG.ContextMenuTests.testRightClick" />
-        <item itemvalue="TestNG.FileUploadTests" />
       </list>
     </recent_temporary>
   </component>
@@ -412,6 +411,7 @@
       <workItem from="1720193296726" duration="638000" />
       <workItem from="1721450713429" duration="4867000" />
       <workItem from="1721537941145" duration="6899000" />
+      <workItem from="1721753407070" duration="2677000" />
     </task>
     <task id="LOCAL-00001" summary="Additional keys">
       <option name="closed" value="true" />

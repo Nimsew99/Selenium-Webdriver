@@ -22,12 +22,13 @@ public class DynamicLoadingExample1Page {
     public void clickStart(){
         driver.findElement(startButton).click();
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-        wait.until(ExpectedConditions.invisibilityOf(
-                driver.findElement(loadingIndicator)));
+       // wait.until(ExpectedConditions.invisibilityOf(driver.findElement(loadingIndicator)));
 
     }
 
-    public String getLoadedText(){
+    public String getLoadedText() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(loadedText));
         return driver.findElement(loadedText).getText();
     }
 }
